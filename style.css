@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-
+/* HEADER */
 
 .ms_bg_header {
     background-color: #2c3e53;
@@ -13,4 +13,55 @@
 
 .ms_bg_green {
     background-color: #1ABC9C;
+}
+
+/* JUMBOTRON*/
+
+.ms_jumbo_svg {
+    width: 20%;
+}
+
+.ms_star::before, .ms_star::after {
+    content: '';
+    display: inline-block;
+    width: 20%;
+    border-radius: 4px;
+    height: 4px;
+    background-color: #fff;
+    
+}
+
+.ms_star {
+    font-size: 30px;
+    color: #fff;
+
+}
+
+.ms_star .bi-star-fill {
+    width: 5%;
+    display: inline-block;
+}
+
+
+/* FOOTER */
+
+.ms_footer_top {
+    background-color: #2c3e50;
+}
+
+.ms_footer_bottom {
+    background-color: #3a546d;
+    min-height: 50px;
+}
+
+
+.ms_radius {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.ms_foot-green {
+    color: #1ABC9C;
 }

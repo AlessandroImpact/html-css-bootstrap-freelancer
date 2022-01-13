@@ -42,6 +42,11 @@
     display: inline-block;
 }
 
+/*PORTFOLIO*/
+
+.ms_br-image {
+    border-radius: 5%;
+}
 
 /* FOOTER */
 
@@ -65,3 +70,5 @@
 .ms_foot-green {
     color: #1ABC9C;
 }
+
+
